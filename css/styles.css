@@ -207,11 +207,11 @@ footer ul li {
   line-height: 2.5;
 }
 
-footer ul li a {
+.social-links {
   color: #fff;
   transition: color 0.6s;
 }
-footer ul li a:hover {
+.social-links:hover {
   color: #aaa;
 }
 
@@ -247,8 +247,25 @@ footer ul li a:hover {
 /* Media Queries */
 @media(max-width: 960px) {
   /* Hide desktop menu */
+  .desktop-main-menu {
+    display: none;
+  }
 }
 
 @media(max-width: 600px) {
+  .section-inner {
+    bottom: 75px;
+    left: 20px;
+  }
 
+  .section-inner h2 {
+    font-size: 40px;
+  }
+
+  footer ul li:first-child {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
