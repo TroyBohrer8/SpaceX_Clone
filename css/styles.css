@@ -268,4 +268,13 @@ footer ul li {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  footer ul li {
+    margin-right: 15px;
+  }
+
+  .logo {
+    width: 150px;
+    margin: auto;
+  }
 }
