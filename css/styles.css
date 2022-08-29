@@ -441,6 +441,10 @@ footer ul li {
   .mobile-only {
     display: block;
   }
+
+  .section-inner-center h3 {
+    font-size: 75px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -467,5 +471,22 @@ footer ul li {
   .logo {
     width: 150px;
     margin: auto;
+  }
+
+  .section-inner-center h3 {
+    font-size: 50px;
+  }
+
+  .section-inner-center {
+    width: 80%;
+  }
+
+  /* Stats */
+  .stats {
+    flex-direction: column;
+  }
+
+  .stats div {
+    margin-bottom: 20px;
   }
 }
